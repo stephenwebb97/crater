@@ -30,6 +30,8 @@ services:
       MYSQL_PASSWORD: crater
       MYSQL_DATABASE: crater
       MYSQL_ROOT_PASSWORD: crater
+    ports:
+      - '33006:3306'
     networks:
       - crater
 
